@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
+import Beer from "./components/beer"
 
 function App() {
-  document.getElementById("Olle").innerHTML += " ADrian ä tönyt";
   return (
     <div className="App">
-      <p>Hej</p>
+      <Beer />
     </div>
   );
 }
