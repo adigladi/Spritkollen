@@ -4,7 +4,7 @@ export class beer extends Component {
     render() {
         return (
             <div>
-                
+                <p>test</p>
             </div>
         )
     }
