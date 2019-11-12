@@ -22,7 +22,6 @@ export class Beer extends Component {
         this.getSBData();
         return (
             <div>
-                <p>Test</p>
             </div>
         )
     }

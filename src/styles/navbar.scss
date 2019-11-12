@@ -1,0 +1,31 @@
+.navbar {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  height: 100px;
+  width: 100vw;
+  justify-content: space-between;
+
+  .beer,
+  .wine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 40%;
+    background-color: slategray;
+  }
+
+  .beer {
+    // border: 2px solid yellow;
+    border-top-right-radius: 100px;
+  }
+
+  .wine {
+    border-top-left-radius: 100px;
+    // border: 2px solid purple;
+  }
+
+  svg {
+      pointer-events: none;
+  }
+}
